@@ -1,5 +1,5 @@
 angular.module('ifsp').controller('CursosController',
-    function($resource, $scope) {
+    function(Curso, $scope) {
         $scope.cursos = [];
         $scope.filtro = '';
         $scope.mensagem = { texto: '' };
